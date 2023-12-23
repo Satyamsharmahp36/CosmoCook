@@ -63,8 +63,15 @@ Visit [COSMOCOOK](http://127.0.0.1:5500/index.html)  and experience the culinary
 Data fetched by The [MealDB](https://www.themealdb.com/api.php)
 
 
-# Image
+# How It Looks
 
 
 ![Screenshot 2023-12-22 145343](https://github.com/Satyamsharmahp36/CA-3_Fwd/assets/138446502/8d9cf23f-7f06-49f1-a272-5d1ce050bace)
+
+
+# How It Works
+
+![Untitled video - Made with Clipchamp](https://github.com/Satyamsharmahp36/CosmoCook/assets/138446502/d3218a25-9635-481b-b50a-d5be252a82b0)
+
+
 
