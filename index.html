@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmoCook</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/cosmocook-high-resolution-logo-transparent.png">
+</head>
+<body>
+<!-- Making Our Canvas Tag -->
+    <canvas id="canvasone"></canvas>
+
+<!-- making functional nav bar for top -->
+    <nav id="navbar">
+        <div id="navdivone" class="navdivs"> 
+            <img src="./assets/cosmocook-high-resolution-logo-transparent.png" alt="cosmo cook logo" id="logo">
+            <span id="name">
+                CosmoCook
+            </span>
+        </div>
+<!-- Making temperory anchor tags for navbar  -->
+            <div id="navdivtwo" class="navdivs">
+            <a href="#">HOME</a>
+            <a href="#">CONTACT</a>
+            <a href="#">LOGIN</a>
+            <img src="./assets/pngtree-user-icon-image_1187018-removebg-preview.png" alt="userlogo" id="userlogo">
+        </div>
+    </nav>
+
+<!--Our Main Content Is Here -->
+    <div id="outerdiv">
+    <div id="maincontent">
+        <div id="searchdiv">
+        <span id="mainContent">
+            Embark On a Flavor Odyssey
+        </span>
+        <p id="smallContent">
+            " CosmoCook Will Unleash Cosmic Flavors In Every Dish And You Are Just One Search Away From That So , Join The Journey "
+        </p>
+
+<!-- Search Bar For dishes are here -->
+        <div id="searchbar">
+            <div>
+                <img src="./assets/pngtree-vector-find-icon-png-image_854997.jpg" alt="" id="buttonsearch">
+            </div>
+            <input type="text" id="search" placeholder="     Search For Your Dish">
+        </div>
+        </div>
+<!-- Adding onclick on Dish name and image -->
+        <div id="randomimgdiv">
+            <div id="innerone">
+                <div>
+                    <p id="randomname"  onclick="showup()"></p>
+              </div> 
+            <div id="boximg">
+            <img src="" alt="" id="randomimg">
+            </div>
+            <div onclick="reloadPage()" id="changetaste">
+                <span>
+                    Change Taste
+                </span>
+            </div>
+            </div>
+        </div>
+    </div> 
+    </div>
+
+<!-- Content for our popup Modal , It will get values and tags through Js  -->
+    <div id="ingredients_box">
+        <span id="cross" onclick="backbutton()">
+          <<span id="back" >Back</span></span>
+
+        <div id="dishname"></div>
+
+        <nav id="distype">         
+               <p id="para"></p>
+        </nav>
+
+        <div id="outcontent">
+            <div id="youtube"></div>
+            <div>
+                <div id="makingprocess">
+                </div>
+            </div>
+            <div id="outering">
+                <div id="ingredients">
+                    <div id="inghead">Ingredients</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Divs For our searchresults -->
+    <div id="dishheading"></div>
+    <div id="trial"></div>
+
+<!-- Botton Footer box  -->
+<div id="outerfooter">
+    <div id="footer" >
+        <div id="mydetails">
+            <img src="./assets/cosmocook-high-resolution-logo-transparent.png" alt="">
+            <div>
+            <h1 class="foo">CosmoCook</h1>
+            <p class="foo">Made By Satyam Sharam</p>
+            </div>
+        </div>
+        <div id="divcredits">
+        <p class="foo" id="credits">Data Fetched By MealDb</p>
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
