@@ -54,7 +54,7 @@ Canvas for the background animation
 
 
 # Demo
-Visit [COSMOCOOK](http://127.0.0.1:5500/index.html)  and experience the culinary journey with random recipes and personalized searches.
+Visit [COSMOCOOK](https://satyamsharmahp36.github.io/CosmoCook/)  and experience the culinary journey with random recipes and personalized searches.
 
 
 # Credits
